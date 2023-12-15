@@ -2,7 +2,7 @@ package com.kotlinJdbc.kotlinJdbc.controller
 import com.kotlinJdbc.kotlinJdbc.dto.Person
 import com.kotlinJdbc.kotlinJdbc.exception.UserNotFoundException
 import com.kotlinJdbc.kotlinJdbc.service.PersonService
-import org.springframework.http.ResponseEntity
+import com.kotlinJdbc.kotlinJdbc.service.impl.PersonServiceImpl
 import org.springframework.web.bind.annotation.*
 
 @RestController
